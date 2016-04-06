@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.iptvon" name="IPTV ON" version="0.0.5" provider-name="addonBrasil">
+    <requires>
+				<import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="iptvon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon exclusivo para os clientes IPTV ON.</summary>
+        <description>Addon exclusivo para os clientes IPTV ON.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.iptvon" name="IPTVON Repository" version="0.0.1" provider-name="IPTVON">
+	<extension point="xbmc.addon.repository" name="IPTVON Repository">
+		<info compressed="false">http://raw.github.com/iptvon/iptvon-kodi/master/addons.xml</info>
+		<checksum>http://raw.github.com/iptvon/iptvon-kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/iptvon/iptvon-kodi/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>RepositÃ³rio IPTVON</summary>
+		<description>RepositÃ³rio exclusivo para clientes IPTVON</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

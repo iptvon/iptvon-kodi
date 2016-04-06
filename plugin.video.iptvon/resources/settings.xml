@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Geral">
+      <setting label="Informações do Usuário" type="lsep" />
+      <setting id="username" type="text" label="Usuário" default=""/>
+      <setting id="password" type="text" label="Senha" default="" option="hidden" enable="!eq(-1,false)"/>
+			
+      <setting label="Controle Parental" type="lsep" />
+      <setting id="passcp" type="text" label="Senha Canais Adultos" default="" option="hidden" enable="!eq(-1,false)"/>
+	 </category>
+</settings>

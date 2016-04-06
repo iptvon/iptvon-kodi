@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.iptvon" name="IPTV ON" version="0.0.5" provider-name="addonBrasil">
+    <requires>
+				<import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+		
+    <extension point="xbmc.python.pluginsource" library="iptvon.py">
+        <provides>video</provides>
+    </extension>
+		
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon exclusivo para os clientes IPTV ON.</summary>
+        <description>Addon exclusivo para os clientes IPTV ON.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
